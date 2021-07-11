@@ -1,0 +1,56 @@
+body{
+    margin: 0px;
+}
+#body-header{
+    height: 65vh;
+    opacity: 0.7;
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSpWgDWHr5t4bYyv_eKUS9MyMIG8_9-seHJ_w&usqp=CAU);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+/* horizontal lists*/
+
+.horizontal-list{
+list-style-type:none;
+text-align: center;
+margin: 0px;
+padding: 0px;
+}
+.horizontal-list li{
+    display: inline-block;
+    margin: 0px 8px 8px 0px;
+}
+.horizontal-list li a{
+    color: white;
+    text-decoration: none;
+}
+.nav-menu li a:hover{
+    color: grey;
+    border-bottom: 1px solid white;
+    transition: color 0.5s, border-bottom 4s;
+}
+/* name  and social icons */
+#name-social-container{
+    margin-top: 20vh;
+}
+.text-center{
+    text-align: center;
+}
+#my-name{
+    font-size: 3rem;
+    letter-spacing: 0.1rem;
+    color: white;
+    font-weight: 700;
+    margin-bottom: 0.5rem;
+}
+
+.social-icons li a i{
+    padding: 10px;
+    font-size: 1rem;
+    border-radius: 50%;
+}
+.social-icons li a i:hover{
+    box-shadow: 0px 0px 6px 4px rgba(255, 9, 9, 0.2);
+}
